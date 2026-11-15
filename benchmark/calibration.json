@@ -1,0 +1,15 @@
+{
+ "model_": "protectai/deberta-v3-base-prompt-injection-v2",
+ "split": "banco_calibracion.py",
+ "n_benign_prose": 53,
+ "n_malicious_prose": 49,
+ "benign_score_max": 0.999999,
+ "benign_p95": 6e-06,
+ "threshold_quarantine": 0.999,
+ "threshold_indeterminate": 0.8,
+ "detection_in_calibration_quarantine": 0.7551,
+ "detection_in_calibration_indeterminate": 0.8367,
+ "fp_in_calibration_quarantine": 0.0189,
+ "fp_in_calibration_indeterminate": 0.0189,
+ "segundos": 6.6
+}

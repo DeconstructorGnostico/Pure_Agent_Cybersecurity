@@ -1,0 +1,4 @@
+# Dependencies OPCIONALES for the sensor ML of the v1.2 (the kernel does not need them).
+# Without them, the agent degrades to 1.1 (APC_SENSOR=off or model absent).
+Torch=2.0 # CPU only transformers=4.40
+# model: protectai/deberta-v3-base-prompt-injection-v2 (download of HuggingFace)
